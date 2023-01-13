@@ -3,8 +3,8 @@ import Trigo2 from '../img/trigo.jpg'
 
 const Trigo = () => {
   return (
-    <div>
-      <img src={Trigo2} alt="" />
+    <div className="container" >
+      <img src={Trigo2} alt="" className="imagen" />
     </div>
   )
 }

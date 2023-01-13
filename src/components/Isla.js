@@ -3,8 +3,8 @@ import Isla2 from '../img/invierno.jpg'
 
 const Isla = () => {
   return (
-    <div>
-      <img src={Isla2} alt="" />
+    <div className="container" >
+      <img src={Isla2} alt="" className="imagen" />
     </div>
   )
 }

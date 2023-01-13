@@ -3,8 +3,8 @@ import Palma2 from '../img/palma.jpg'
 
 const Palma = () => {
   return (
-    <div>
-      <img src={Palma2} alt="" />
+    <div className="container" >
+      <img src={Palma2} alt="" className="imagen" />
     </div>
   )
 }

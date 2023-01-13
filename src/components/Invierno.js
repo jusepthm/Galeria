@@ -3,8 +3,8 @@ import Invierno2 from '../img/invierno.jpg'
 
 const Invierno = () => {
   return (
-    <div>
-      <img src={Invierno2} alt="" />
+    <div className="container" >
+      <img src={Invierno2} alt="" className="imagen" />
     </div>
   )
 }

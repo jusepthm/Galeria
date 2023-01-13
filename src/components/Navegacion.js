@@ -11,53 +11,53 @@ import Trigo3 from '../img/trigo.jpg'
 
 const Navegacion = () => {
   return (
-    <div>
-      <Link to="/Hojas">
+    <div className="container mt-3 padre" >
+      <Link to="/Hojas" className="Links" >
         <figure>
-          <img src={Hojas3} alt="" />
+          <img src={Hojas3} alt="" className="tamaño-img" />
           <figcaption>Hojas</figcaption>
         </figure>
       </Link>
 
-      <Link to="/Invierno">
+      <Link to="/Invierno" className="Links">
         <figure>
-          <img src={Invierno3} alt="" />
-          <figcaption>Invierno</figcaption>
+          <img src={Invierno3} alt="" className="tamaño-img" />
+          <figcaption>Hojas</figcaption>
         </figure>
       </Link>
 
-      <Link to="/Isla">
+      <Link to="/Isla" className="Links">
         <figure>
-          <img src={Isla3} alt="" />
-          <figcaption>Isla</figcaption>
+          <img src={Isla3} alt="" className="tamaño-img" />
+          <figcaption>Hojas</figcaption>
         </figure>
       </Link>
 
-      <Link to="/Oceano">
+      <Link to="/Oceano" className="Links">
         <figure>
-          <img src={Oceano3} alt="" />
-          <figcaption>Oceano</figcaption>
+          <img src={Oceano3} alt="" className="tamaño-img" />
+          <figcaption>Hojas</figcaption>
         </figure>
       </Link>
 
-      <Link to="/Otoño">
+      <Link to="/Otoño" className="Links">
         <figure>
-          <img src={Otoño3} alt="" />
-          <figcaption>Otoño</figcaption>
+          <img src={Otoño3} alt="" className="tamaño-img" />
+          <figcaption>Hojas</figcaption>
         </figure>
       </Link>
 
       <Link to="/Palma">
-        <figure>
-          <img src={Palma3} alt="" />
-          <figcaption>Palma</figcaption>
-        </figure>
+        <Link>
+          <img src={Palma3} alt="" className="tamaño-img" />
+          <figcaption>Hojas</figcaption>
+        </Link>
       </Link>
 
-      <Link to="Trigo">
+      <Link to="Trigo" className="Links">
         <figure>
-          <img src={Trigo3} alt="" />
-          <figcaption>Trigo</figcaption>
+          <img src={Trigo3} alt="" className="tamaño-img" />
+          <figcaption>Hojas</figcaption>
         </figure>
       </Link>
     </div>
