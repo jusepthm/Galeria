@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Hojas from "./components/Hojas";
 import Invierno from "./components/Invierno";
 import Isla from "./components/Isla";
@@ -15,7 +15,6 @@ function App() {
       <div className="container">
         <h1 className="text-center mt-3 mb-3 text-white" >Galeria</h1>
       </div>
-      <Routes>
         <Route path="/Hojas" component={Hojas} />
         <Route path="/Invierno" component={Invierno} />
         <Route path="/Isla" component={Isla} />
@@ -23,7 +22,6 @@ function App() {
         <Route path="/Otoño" component={Otoño} />
         <Route path="/Palma" component={Palma} />
         <Route path="/Trigo" component={Trigo} />
-        </Routes>
         <Navegacion />
     </Router>
   );
